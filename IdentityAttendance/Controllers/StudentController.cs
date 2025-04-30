@@ -1,11 +1,13 @@
 ﻿using IdentityAttendance.Data;
 using IdentityAttendance.Models;
 using IdentityAttendance.Models.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace IdentityAttendance.Controllers
 {
+    [Authorize]
     public class StudentController : Controller
     {
         private readonly ApplicationDbContext dbContext;

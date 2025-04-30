@@ -3,9 +3,11 @@ using IdentityAttendance.Models.Entities;
 using IdentityAttendance.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace IdentityAttendance.Controllers
 {
+    [Authorize]
     public class AttendanceController : Controller
     {
         private readonly ApplicationDbContext dbContext;

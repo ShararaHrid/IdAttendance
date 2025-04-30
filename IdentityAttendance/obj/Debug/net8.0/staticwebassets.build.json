@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "e2AEpuBjzZTcCPhdInJ0Xx5JhN/daNttFemOiG6RHIY=",
+  "Hash": "0RMScPHOKzn5s+jCQu4/aWc/vD7UujENMZrjrl8aLX0=",
   "Source": "IdentityAttendance",
   "BasePath": "_content/IdentityAttendance",
   "Mode": "Default",
@@ -1359,6 +1359,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\projects\\IdentityAttendance\\IdentityAttendance\\wwwroot\\images\\images.jpg",
+      "SourceId": "IdentityAttendance",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\projects\\IdentityAttendance\\IdentityAttendance\\wwwroot\\",
+      "BasePath": "_content/IdentityAttendance",
+      "RelativePath": "images/images#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "powijahi4s",
+      "Integrity": "B598h42lbMziAqsqSw9h/zV6Gc8V4lndsmzFQWh/EkM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images.jpg"
     },
     {
       "Identity": "E:\\projects\\IdentityAttendance\\IdentityAttendance\\wwwroot\\js\\site.js",
@@ -5125,6 +5146,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-HsdFtAavBMgJ99rxxXGF6gbC03hr33FDgddXzDgfzwM="
+        }
+      ]
+    },
+    {
+      "Route": "images/images.jpg",
+      "AssetFile": "E:\\projects\\IdentityAttendance\\IdentityAttendance\\wwwroot\\images\\images.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B598h42lbMziAqsqSw9h/zV6Gc8V4lndsmzFQWh/EkM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 18:43:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B598h42lbMziAqsqSw9h/zV6Gc8V4lndsmzFQWh/EkM="
+        }
+      ]
+    },
+    {
+      "Route": "images/images.powijahi4s.jpg",
+      "AssetFile": "E:\\projects\\IdentityAttendance\\IdentityAttendance\\wwwroot\\images\\images.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B598h42lbMziAqsqSw9h/zV6Gc8V4lndsmzFQWh/EkM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 18:43:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "powijahi4s"
+        },
+        {
+          "Name": "label",
+          "Value": "images/images.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B598h42lbMziAqsqSw9h/zV6Gc8V4lndsmzFQWh/EkM="
         }
       ]
     },

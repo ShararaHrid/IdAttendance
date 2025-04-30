@@ -1,9 +1,11 @@
 using IdentityAttendance.Data;
+using IdentityAttendance.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
 using MySql.EntityFrameworkCore;
 using MySql.Data;
+using System;
 
 namespace IdentityAttendance
 {
@@ -20,6 +22,7 @@ namespace IdentityAttendance
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
@@ -41,6 +44,7 @@ namespace IdentityAttendance
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
@@ -52,3 +56,15 @@ namespace IdentityAttendance
         }
     }
 }
+//builder.Services.AddIdentity<User, IdentityRole>(options =>
+//{
+//    options.Password.RequireNonAlphanumeric = false;
+//    options.Password.RequiredLength = 8;
+//    options.Password.RequireUppercase = false;
+//    options.Password.RequireLowercase = false;
+//    options.User.RequireUniqueEmail = true;
+ //   options.SignIn.RequireConfirmedAccount = true;
+//    options.SignIn.RequireConfirmedEmail = false;
+ //   options.SignIn.RequireConfirmedPhoneNumber = false;
+//})
+//                .AddDefaultTokenProviders();
